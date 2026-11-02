@@ -1,0 +1,38 @@
+# Python environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Dataset
+data/
+dataset/
+datasets/
+Accident vs Normal Dataset/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.log
+.streamlit/cache/
+
+# Local database and database cache
+database/*.db
+database/__pycache__/
